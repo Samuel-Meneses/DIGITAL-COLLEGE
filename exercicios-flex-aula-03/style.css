@@ -1,0 +1,165 @@
+
+body{
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    background: url(../pages/cerebro-estatico.svg);
+    background-size: cover;
+    min-height: 100vh;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #7b25aa;
+    --segundario: #ecf0f1;
+}
+
+.div-login{
+    background-color: #38055f99;
+    width: 50%;
+    height: 50%;
+    margin: 200px 0px 200px 250px;
+    padding: 10px;
+    /* display: block; */
+    align-items:center;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: #3a0955;
+}
+.div-login h1{
+    position: relative;
+    height: 0px;
+    padding: 0px 0px 30px 0px;
+    align-items: center;
+    color: var(--segundario);
+    
+    
+}
+.imagem-cerebro-home{
+    width: 180px;
+}
+.div-login > p{
+    color: var(--segundario);
+    padding: 0px 0px 10px 0px;
+    /* width: 250px 250px 0px 250px; */
+    font-weight: 900;
+
+}
+
+.div-login a{
+    border: 0;
+    background: var(--segundario);
+    border-radius: 5px;
+    width: 60px 60px 50px 60px;
+    height: 50px;
+    /* align-items: center; */
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    /* box-sizing: border-box; */
+    box-shadow:    5px 5px 30px #bebebe, 
+    -8px -8px 60px #ffffff; 
+    outline: none;
+    text-decoration: none;
+    color: var(--primary);
+    transition: color 0.5s linear;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.div-login a:hover{
+    background: var(--primary);
+    color: var(--segundario);
+}
+
+.div-cadastro{
+    background-color: var(--primary);
+    background-color: #4c087f90;
+    width: 50%;
+    height: 50%;
+    margin: 200px 250px 00px 3px;
+    padding: 50px;
+    /* display: block; */
+    align-items:center;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.div-cadastro > p{
+    color: var(--segundario);
+    font-size: 20px;
+    padding: 30px 5px 0px 10px;
+    font-weight: 900;
+    
+}
+.div-cadastro h2{
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    width: 0px 0px 0px 00px;
+    height: 0px;
+    padding: 10px;
+    align-items: center;
+    color: var(--segundario);
+}
+.form-registro{
+    /* background-color: #38055f; */
+    width: 50%;
+    height: 50%;
+    margin: 00px 0px 200px 100px;
+    padding: 5px 5px;
+    /* display: block; */
+    align-items:center;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+        
+}
+
+#nome{
+    outline: none;
+}
+#email{
+    outline: none;
+}
+#senha{
+    outline: none;
+}
+
+.form-registro > button {
+    border: 0;
+    background: var(--segundario);
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    /* width: 60px 60px 50px 60px; */
+    height: 30px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px #bebebe, 
+    -8px -8px 60px #ffffff; 
+    transition: color 0.5s linear;
+}
+.form-registro > button:hover{
+    background: var(--primary);
+    color: var(--segundario);
+
+}
+
+.form-registro > div{
+    width: 500px 50px ;
+    height: 20px;
+    border-radius: 50px;
+    border: 0;
+    /* border: 10px solid #bebebe; */
+    padding: 10px;
+    display: block;
+}

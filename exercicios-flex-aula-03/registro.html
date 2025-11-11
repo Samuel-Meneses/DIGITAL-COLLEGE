@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+  <title>Formulario HTML</title>
+</head>
+<body>
+  <main>
+    <div class="div-login">
+      <img src="./cerebro.svg" class="imagem-cerebro-home" alt="Cerebro animado">
+      <h1>Bem vindo</h1>
+      
+      <p>Para manter-se conectado <br>Faça login com suas informações pessoais</p>
+      <a href="login.html">Entrar</a>
+    </div>
+    <div class="div-cadastro">
+      <h2>Criar conta</h2>
+      <div class="icones">
+        <div><i class="fa-brands fa-facebook-f" style="color: #989aa0;"></i></div>
+        <div><i class="fa-brands fa-google" style="color: #989aa0;"></i></div>
+        <div><i class="fa-brands fa-linkedin-in" style="color: #989aa0;"></i></div>
+      </div>
+      <p>Registre-se com seu email</p>
+      <form class="form-registro">
+        <div class="imput-cadastro">
+          <label for="nome" hidden>Nome</label>
+          <input type="text" id="nome" required placeholder="Nome">
+        </div>
+        <div  class="imput-cadatro">
+          <label for="email" hidden>Email</label>
+          <input type="email" name="email" id="email" required placeholder="email">
+        </div>
+        <div class="imput-cadatro">
+          <label for="senha" hidden>Senha</label>
+          <input class="input-senha" type="password" name="senha" id="senha" required placeholder="senha">
+        </div>
+        <button type="submit">REGISTRE-SE</button>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
